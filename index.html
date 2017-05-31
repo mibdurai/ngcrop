@@ -79,7 +79,7 @@
     <button ng-click="imageDataURI=''">Reset Image</button>
   </div>
 
-  <div ng-if="enableCrop" class="cropArea" ng-class="{'big':size=='big', 'medium':size=='medium', 'small':size=='small'}">
+  <div ng-if="enableCrop" class="" ng-class="{'big':size=='big', 'medium':size=='medium', 'small':size=='small'}">
     <img-crop image="imageDataURI"
               result-image="$parent.resImageDataURI"
               change-on-fly="changeOnFly"
